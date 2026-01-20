@@ -406,6 +406,7 @@ line-height: 24px;
 .hero-logo{
   right: 46%;
   top: 36%;
+ 
 }
 
 .hero-container h2{
@@ -424,6 +425,7 @@ line-height: 24px;
 
 .buttons{
   gap: 8px;
+  display: flex;
 }
 
 .exta-design{
@@ -546,6 +548,10 @@ line-height: 24px;
   .hero-image p{
     left: 65%;
     top: 24%;
+  }
+
+  .buttons{
+    flex-direction: column;
   }
 
 
