@@ -311,6 +311,58 @@ line-height: 24px;
   max-height: 40px;
   border: 2px solid #533C72;
   border-radius: 100%;
+} 
+
+/* footer section */
+
+#footer-container{
+  width: 100%;
+  max-width: 1600px;
+  background-image: url(../assets/footer-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+ 
+
+}
+
+.footer-content{
+ 
+  width: 100%;
+  justify-items: center;
+  align-items: center;
+  padding: 120px 0px;
+}
+
+.companies{
+  margin: 32px 0px;
+  max-width: 544px;
+  max-height: 24px;
+  gap: 40px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  
+ 
+
+}
+
+.companies a{
+  display: flex;
+  max-height: 24px;
+  font-size: 16px;
+  text-align: center;
+  align-items: center;
+  gap: 8px;
+
+}
+
+.copyright{
+ font-size: 1rem;
+ font-weight: regular;
+ line-height: 24px;
+ color: #FAFAFA;
+ 
 }
 
 
@@ -375,6 +427,25 @@ line-height: 24px;
   .feature-info h3{
     margin-top: 16px;
     margin-bottom: 16px;
+  }
+
+  .footer-content{
+    padding: 40px 20px;
+   
+  }
+
+  .companies{
+     grid-template-columns: repeat(2,1fr);
+     max-width: 255px;
+     max-height: 64px;
+     /* margin-top: 56px;
+     margin-bottom: 24px; */
+     /* padding-top: 56px; */
+     padding-bottom: 24px;
+  }
+
+  .copyright{
+    padding-top: 50px;
   }
 
 
