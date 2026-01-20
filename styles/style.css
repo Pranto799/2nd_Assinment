@@ -75,6 +75,8 @@ body{
     max-width: 1600px;
     padding-top: 24px;
     padding-bottom: 24px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .menu{
@@ -89,6 +91,7 @@ body{
   margin: 0px auto;
   text-align: center;
   max-width: 1600px;
+  background-color: #1A0B2E;
  
 }
 
@@ -111,11 +114,12 @@ body{
 
 .about-info{
 
-  margin: 0px 200px 120px;
-  max-width: 1200px;
+  padding: 0px 200px 120px;
+  
   display: grid;
   grid-template-columns: repeat(4,1fr);
   justify-content: center;
+ 
 }
 
 .about-info h3{
@@ -131,6 +135,62 @@ body{
   line-height: 20px;
 }
 
+/* choose section */
+.choose{
+  background-color: #230E3D;
+}
+.choose h2{
+  
+  margin: 0px auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  padding-top: 120px;
+  padding-bottom: 40px;
+}
+
+.choose-card-container{
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    max-width: 1600px;
+    padding: 120px 200px;
+    gap: 16px;
+}
+
+.ch_cd{
+  padding: 40px;
+  border-radius: 40px;
+
+  background-color: #351165;
+}
+
+
+
+.choose-card_1{
+  grid-row: span 2;
+}
+
+.choose-card_2{
+  grid-column: span 2;
+}
+
+.choose-card_3{
+  grid-column: span 2;
+}
+
+.choose-card_4{
+  grid-column: span 2;
+}
+
+.choose-card_1{
+  grid-row: span 2;
+}
+
+
 
 
 
@@ -138,6 +198,11 @@ body{
 
 /* responsive media query */
 @media screen and (max-width: 576px){
+  .container{
+    
+    padding-left: 20px;
+    padding-right: 20px;
+}
   .about-info{
     grid-template-columns: repeat(2,1fr);
     gap: 40px;
@@ -151,6 +216,17 @@ body{
     justify-content: center;
     align-items: center;
    
+  }
+
+  .choose-card-container{
+    grid-template-columns: repeat(1,1fr);
+    padding: 20px;
+    
+  }
+
+  .ch_cd{
+   padding: 24px 40px;
+
   }
 
 }
