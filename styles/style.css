@@ -96,8 +96,10 @@ body{
 }
 
 .about-description{
-  margin: 50px 200px 160px;
-  max-width: 1200px;
+ 
+  padding: 50px 200px 160px;
+  justify-content: center
+ 
 }
 
 .about-description h2{
@@ -365,6 +367,66 @@ line-height: 24px;
  
 }
 
+/* banner section */
+#hero{
+  width: 100%;
+  max-width: 1600px;
+  background-color: #1A0B2E;
+  background-image: url(../assets/hero-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-container{
+ 
+  width: 100%;
+  max-width: 550px;
+  margin: 0px auto;
+  padding: 80px 0px;
+  justify-items: center;
+  align-items: center;
+}
+
+.hero-logo{
+  right: 46%;
+  top: 36%;
+}
+
+.hero-container h2{
+  margin-top: 40px;
+  margin-bottom: 8px ;
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.hero-container p{
+  margin-bottom: 40px;
+  opacity: 80%;
+  font-size: 1rem;
+  font-weight: regular;
+}
+
+.buttons{
+  gap: 8px;
+}
+
+.exta-design{
+  color: #00FF88;
+  background-color: none;
+}
+
+.hero-image p{
+  background-color: #00FF88;
+  color: #1A0B2E;
+  border-radius: 1000px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 8px 16px;
+  left: 56%;
+  top: 27%;
+}
+
 
 
 
@@ -384,7 +446,7 @@ line-height: 24px;
   }
 
   .about-description{
-    margin: 40px 20px 80px;
+    padding: 40px 20px 80px;
     justify-content: center;
     align-items: center;
    
@@ -447,6 +509,30 @@ line-height: 24px;
   .copyright{
     padding-top: 50px;
   }
+
+  .hero-container{
+    padding: 40px 20px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+
+  }
+
+  .circle{
+    width: 100%;
+
+  }
+
+  .hero-logo{
+    right: 40%;
+    top: 33%;
+  }
+
+  .hero-image p{
+    left: 65%;
+    top: 24%;
+  }
+
 
 
 }
