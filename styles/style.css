@@ -64,6 +64,16 @@ body{
 }
 
 
+.feature-card:hover{
+    background-color: #533C72;
+    box-shadow: 0px 10px 50px 0 #04040426;
+}
+
+.ch_cd:hover{
+    background-color: #533C72;
+    box-shadow: 0px 10px 50px 0 #04040426;
+}
+
 
 /* main */
 
@@ -314,6 +324,11 @@ line-height: 24px;
   border: 2px solid #533C72;
   border-radius: 100%;
 } 
+
+.feature-card span{
+  color: #00FF88;
+ 
+}
 
 /* footer section */
 
